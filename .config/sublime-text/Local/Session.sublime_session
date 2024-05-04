@@ -1,0 +1,607 @@
+{
+	"file_history":
+	[
+		"/home/thaianh/.config/sublime-text/Packages/LSP/LSP.sublime-settings",
+		"/home/thaianh/.config/sublime-text/Packages/User/LSP.sublime-settings",
+		"/home/thaianh/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/thaianh/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/thaianh/.config/sublime-text/Packages/Default/Distraction Free.sublime-settings",
+		"/home/thaianh/.config/sublime-text/Packages/User/Distraction Free.sublime-settings"
+	],
+	"folder_history":
+	[
+		"/home/thaianh/kubernetes"
+	],
+	"last_version": 4169,
+	"last_window_id": 5,
+	"log_indexing": false,
+	"next_update_check": 1714906808,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 0.0,
+		"new_window_maximized": true,
+		"new_window_position":
+		[
+			0.0,
+			47.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/thaianh/kubernetes/pkg/apis/autoscaling/v1/conversion.go",
+				"/home/thaianh/kubernetes/pkg/kubelet/nodeshutdown/storage.go",
+				"/home/thaianh/kubernetes/pkg/apis/admission/register.go"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 62.0
+			},
+			"menu_visible": true,
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"storage",
+						"pkg/kubelet/nodeshutdown/storage.go"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 234.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/thaianh/kubernetes/pkg/apis/admission/register.go",
+					"settings":
+					{
+						"buffer_size": 1648,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				},
+				{
+					"file": "/home/thaianh/kubernetes/pkg/kubelet/nodeshutdown/storage.go",
+					"settings":
+					{
+						"buffer_size": 1987,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				},
+				{
+					"file": "/home/thaianh/kubernetes/pkg/apis/autoscaling/v1/conversion.go",
+					"redo_stack":
+					[
+						[
+							11,
+							1,
+							"left_delete",
+							null,
+							"AQAAAGFRAAAAAAAAYlEAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABhUQAAAAAAAGFRAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							10,
+							1,
+							"left_delete",
+							null,
+							"AQAAAGJRAAAAAAAAZlEAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABiUQAAAAAAAGJRAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							7,
+							1,
+							"insert",
+							{
+								"characters": "\nin."
+							},
+							"BQAAAGVRAAAAAAAAZVEAAAAAAAABAAAALmRRAAAAAAAAZFEAAAAAAAABAAAAbmNRAAAAAAAAY1EAAAAAAAABAAAAaWJRAAAAAAAAYlEAAAAAAAABAAAACWFRAAAAAAAAYVEAAAAAAAABAAAACg",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABmUQAAAAAAAGZRAAAAAAAAAAAAAAAA8L8"
+						]
+					],
+					"settings":
+					{
+						"buffer_size": 21669,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/thaianh/kubernetes",
+				"/home/thaianh/kubernetes/pkg",
+				"/home/thaianh/kubernetes/pkg/apis",
+				"/home/thaianh/kubernetes/pkg/apis/admission",
+				"/home/thaianh/kubernetes/pkg/apis/autoscaling",
+				"/home/thaianh/kubernetes/pkg/apis/autoscaling/install",
+				"/home/thaianh/kubernetes/pkg/apis/autoscaling/v1",
+				"/home/thaianh/kubernetes/pkg/apis/discovery",
+				"/home/thaianh/kubernetes/pkg/apis/storage",
+				"/home/thaianh/kubernetes/pkg/apis/storage/v1",
+				"/home/thaianh/kubernetes/pkg/kubectl",
+				"/home/thaianh/kubernetes/pkg/kubectl/cmd",
+				"/home/thaianh/kubernetes/pkg/kubectl/cmd/convert"
+			],
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/thaianh/kubernetes"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/thaianh/kubernetes/pkg/apis/admission/register.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1648,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1505,
+										1505
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": ".",
+											"selector": "source.python - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+											"server": "gopls"
+										}
+									],
+									"lsp_active": true,
+									"lsp_uri": "file:///home/thaianh/kubernetes/pkg/apis/admission/register.go",
+									"show_definitions": false,
+									"syntax": "Packages/Go/Go.sublime-syntax",
+									"tab_size": 4,
+									"touched": 1714821273.13,
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 519.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/thaianh/kubernetes/pkg/kubelet/nodeshutdown/storage.go",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1987,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1987,
+										1987
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": ".",
+											"selector": "source.python - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+											"server": "gopls"
+										}
+									],
+									"lsp_active": true,
+									"lsp_uri": "file:///home/thaianh/kubernetes/pkg/kubelet/nodeshutdown/storage.go",
+									"show_definitions": false,
+									"syntax": "Packages/Go/Go.sublime-syntax",
+									"tab_size": 4,
+									"touched": 1714821298.39,
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 1509.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/thaianh/kubernetes/pkg/apis/autoscaling/v1/conversion.go",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 21669,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										20358,
+										20358
+									]
+								],
+								"settings":
+								{
+									"lsp_uri": "file:///home/thaianh/kubernetes/pkg/apis/autoscaling/v1/conversion.go",
+									"syntax": "Packages/Go/Go.sublime-syntax",
+									"tab_size": 4,
+									"touched": 1714821221.91,
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 9785.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 62.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,20,1366,768,1366,768,0",
+			"project": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"storage",
+						"pkg/kubelet/nodeshutdown/storage.go"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 234.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

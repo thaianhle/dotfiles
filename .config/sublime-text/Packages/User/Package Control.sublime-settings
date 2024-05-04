@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"A File Icon",
+		"Anaconda",
+		"Dracula Color Scheme",
+		"Emacs Pro Essentials",
+		"FileIcons",
+		"GitHub Theme",
+		"LSP",
+		"Package Control",
+		"Terminal",
+		"Terminus",
+	],
+	"in_process_packages":
+	[
+	],
+}
