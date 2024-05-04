@@ -7,13 +7,14 @@ def debina_install():
 	#os.system(f"sudo apt-get install {DEBIAN_PKG}")
 
 	folder = "config_test"
+	folder_home = "home_test"
 	os.system("echo '...copying and configure awesomwem before starting....'")
 
 	print("creating folder config")
 
 	os.system(f"mkdir $HOME/{folder}")
-	os.system(f"cp -r .config/* $HOME/{folder}")
-
+	os.system(f"cp -rf .config/* $HOME/{folder}")
+	os.system(f"cp -rf home/* {folder_home}/")
 
 def rhel_install():
 	pass
