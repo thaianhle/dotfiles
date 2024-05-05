@@ -10,7 +10,7 @@ settings.themes = {
     "PowerArrow_CalmRed", -- 5
 }
 
-settings.chosen_theme = settings.themes[5] -- replace number inside of [] with a theme number from the list above
+settings.chosen_theme = settings.themes[4] -- replace number inside of [] with a theme number from the list above
 
 settings.enableTitlebar = false -- Set to true if you wish to have title bars on top of applications (i.e to have buttons: close, minimise, etc )
 
@@ -39,7 +39,7 @@ settings.useFlameShot = false -- If you want flameshot (screenshotting tool) to 
 
 
 ---------- Get your local weather ID from https://openweathermap.org/ ----------
-
-settings.weatherID = 2643743 -- Set this to your own weather ID
+---------- HO CHI MINH WEATHER ID = 1566083 ---------------
+settings.weatherID = 1566083-- Set this to your own weather ID
 
 return settings
