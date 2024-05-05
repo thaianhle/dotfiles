@@ -289,14 +289,20 @@ globalkeys = my_table.join(
         { description = "focus the previous screen", group = "screen" }),
     awful.key({ modkey, }, "u", awful.client.urgent.jumpto,
         { description = "jump to urgent client", group = "client" }),
+   --awful.key({ modkey, }, "Tab",
+   --    function()
+   --        awful.client.focus.history.previous()
+   --        if client.focus then
+   --            client.focus:raise()
+   --        end
+   --    end,
+   --    { description = "switch tab window", group = "client" }),
+
     awful.key({ modkey, }, "Tab",
-        function()
-            awful.client.focus.history.previous()
-            if client.focus then
-                client.focus:raise()
-            end
-        end,
-        { description = "switch tab window", group = "client" }),
+       function()
+	  awful.util.spawn("rofi -show window")
+       end,
+        { description = "show list all tab window", group = "client" }),
 
     -- Show/Hide Wibox
     awful.key({ modkey }, "b", function()
@@ -332,9 +338,12 @@ globalkeys = my_table.join(
     awful.key({ modkey, }, "e", function() awful.layout.inc(1) end,
         { description = "select next", group = "layout" }),
 
-    awful.key({ modkey, }, "d", function() awful.util.spawn("rofi -show") end,
-        { description = "Run Rofi", group = "launcher" }),
+    awful.key({ modkey, }, "d", function() awful.util.spawn("rofi -show drun") end,
+        { description = "Run Rofi Menu App", group = "launcher" }),
 
+    awful.key({ modkey, }, "r", function() awful.util.spawn("rofi -show run") end,
+       { description = "Run Rofi Launcher Shell", group = "launcher" }),
+    
     awful.key({ modkey, "Control" }, "n",
         function()
             local c = awful.client.restore()
