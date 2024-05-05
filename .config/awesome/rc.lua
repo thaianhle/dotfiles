@@ -130,7 +130,7 @@ beautiful.init(string.format(gears.filesystem.get_configuration_dir() .. "/theme
     settings.chosen_theme))
 
 local theme = beautiful.get()
-theme.font = "HackNerdFontMono Regular 10"
+theme.font = "SFMono Nerd Font SemiBold 9"
 beautiful.init(theme)
 local myawesomemenu = {
     { "hotkeys", function() return false, hotkeys_popup.show_help end },
