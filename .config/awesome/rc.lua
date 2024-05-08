@@ -130,8 +130,9 @@ beautiful.init(string.format(gears.filesystem.get_configuration_dir() .. "/theme
     settings.chosen_theme))
 
 local theme = beautiful.get()
-theme.font = "SFMono Nerd Font SemiBold 9"
+theme.font = "SFMono Nerd Font Semibold 8"
 beautiful.init(theme)
+beautiful.taglist_font = "SFMono Nerd Font Semibold 8"
 local myawesomemenu = {
     { "hotkeys", function() return false, hotkeys_popup.show_help end },
     { "manual", terminal .. " -e 'man awesome'" },
@@ -289,16 +290,16 @@ globalkeys = my_table.join(
         { description = "focus the previous screen", group = "screen" }),
     awful.key({ modkey, }, "u", awful.client.urgent.jumpto,
         { description = "jump to urgent client", group = "client" }),
-   --awful.key({ modkey, }, "Tab",
-   --    function()
-   --        awful.client.focus.history.previous()
-   --        if client.focus then
-   --            client.focus:raise()
-   --        end
-   --    end,
-   --    { description = "switch tab window", group = "client" }),
+   awful.key({ modkey, }, "Tab",
+       function()
+           awful.client.focus.history.previous()
+           if client.focus then
+               client.focus:raise()
+           end
+       end,
+       { description = "switch tab window", group = "client" }),
 
-    awful.key({ modkey, }, "Tab",
+    awful.key({ modkey, }, "`",
        function()
 	  awful.util.spawn("rofi -show window")
        end,
@@ -373,13 +374,13 @@ globalkeys = my_table.join(
     -- Volume Keys
     awful.key({}, "XF86AudioRaiseVolume",
         function()
-            os.execute(string.format("amixer -q set %s 1%%+", beautiful.volume.channel))
+            os.execute(string.format("amixer -q set %s 5%%+", beautiful.volume.channel))
             beautiful.volume.update()
         end),
     --awful.key({ ctrlkey }, "Down",
     awful.key({}, "XF86AudioLowerVolume",
         function()
-            os.execute(string.format("amixer -q set %s 1%%-", beautiful.volume.channel))
+            os.execute(string.format("amixer -q set %s 5%%-", beautiful.volume.channel))
             beautiful.volume.update()
         end),
     awful.key({}, "XF86AudioMute",
@@ -548,9 +549,6 @@ client.connect_signal("manage", function(c)
     -- i.e. put it at the end of others instead of setting it master.
     -- if not awesome.startup then awful.client.setslave(c) end
 
-    c.shape = function(cr, w, h)
-       gears.shape.rounded_rect(cr, w, h, 15)	    
-    end
 
     if awesome.startup and
         not c.size_hints.user_position
@@ -619,7 +617,7 @@ function border_adjust(c)
     if c.maximized then -- no borders if only 1 client visible
         c.border_width = 0
     elseif #awful.screen.focused().clients > 1 then
-        c.border_width = beautiful.border_width
+        c.border_width = 2
         c.border_color = beautiful.border_focus
     end
 end

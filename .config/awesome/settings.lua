@@ -10,11 +10,11 @@ settings.themes = {
     "PowerArrow_CalmRed", -- 5
 }
 
-settings.chosen_theme = settings.themes[4] -- replace number inside of [] with a theme number from the list above
+settings.chosen_theme = settings.themes[2] -- replace number inside of [] with a theme number from the list above
 
 settings.enableTitlebar = false -- Set to true if you wish to have title bars on top of applications (i.e to have buttons: close, minimise, etc )
 
-settings.gapsize = 4 -- set your gap size here
+settings.gapsize = 6 -- set your gap size here
 
 settings.focusOnHover = true -- set to false if you don't want the window to focused on mouse hover
 
